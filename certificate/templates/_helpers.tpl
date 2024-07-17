@@ -49,14 +49,3 @@ Selector labels
 app.kubernetes.io/name: {{ include "certificate.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
-
-{{/*
-Create the name of the service account to use
-*/}}
-{{- define "certificate.serviceAccountName" -}}
-{{- if .Values.certificate.serviceAccount.create }}
-{{- default (include "certificate.fullname" .) .Values.certificate.serviceAccount.name }}
-{{- else }}
-{{- default "default" .Values.certificate.serviceAccount.name }}
-{{- end }}
-{{- end }}
