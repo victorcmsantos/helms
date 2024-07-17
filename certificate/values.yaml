@@ -1,0 +1,9 @@
+certificate:
+  nameOverride: ""
+  fullnameOverride: ""
+  dnsNames: []
+  issuerRef:
+    kind: ClusterIssuer
+    name:
+  secretName:
+  commonName:
