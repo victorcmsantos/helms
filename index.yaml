@@ -3,17 +3,7 @@ entries:
   certificate:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-17T18:32:48.994209662-03:00"
-    description: A Helm chart for Kubernetes
-    digest: a16d7764bad80826d516d6d2f9fb3e66364a1c21d9d8fb2cbe5a9cb4bcf9b84d
-    name: certificate
-    type: application
-    urls:
-    - https://victorcmsantos.github.io/helms/certificate-0.1.0.tgz
-    version: 0.1.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-07-17T18:32:48.99857374-03:00"
+    created: "2024-07-17T18:34:11.16149478-03:00"
     description: A Helm chart for Kubernetes
     digest: 5684dfb7cee9a39d2510f61a34ac538ea926e49ffad6e4374237696b6ebd106c
     name: certificate
@@ -21,4 +11,4 @@ entries:
     urls:
     - https://victorcmsantos.github.io/helms/charts/certificate-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-17T18:32:48.989661938-03:00"
+generated: "2024-07-17T18:34:11.154822906-03:00"
