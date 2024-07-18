@@ -3,7 +3,7 @@ entries:
   certificate:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-17T18:51:24.663612177-03:00"
+    created: "2024-07-18T08:50:08.402950174-03:00"
     description: A Helm chart for Kubernetes
     digest: a47a5d0d49acf165298dcc6a5e4af6c145eb371a3f9a28b2470a8e7f67a04708
     name: certificate
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-17T18:51:24.660980939-03:00"
+    created: "2024-07-18T08:50:08.400645992-03:00"
     description: A Helm chart for Kubernetes
     digest: 5684dfb7cee9a39d2510f61a34ac538ea926e49ffad6e4374237696b6ebd106c
     name: certificate
@@ -21,4 +21,15 @@ entries:
     urls:
     - https://victorcmsantos.github.io/helms/charts/certificate-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-17T18:51:24.65692836-03:00"
+  clusterissuer:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-07-18T08:50:08.40523508-03:00"
+    description: A Helm chart for Kubernetes
+    digest: fd12356e203ffb22e25632b50c37539f5df29972c3b281f5d44efb299ecf556d
+    name: clusterissuer
+    type: application
+    urls:
+    - https://victorcmsantos.github.io/helms/charts/clusterissuer-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-07-18T08:50:08.396654731-03:00"
