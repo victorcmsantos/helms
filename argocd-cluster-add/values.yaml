@@ -1,0 +1,5 @@
+name: aks-cluster
+namespace: argocd
+apiServerEndpoint: ""
+bearerToken: ""
+caCertificateData: ""
